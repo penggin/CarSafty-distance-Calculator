@@ -81,9 +81,11 @@
 
 **순서도로 구성하기**
 순서도에서 쓰이는 기호들은 다음과 같은 의미를 가진다.
+
 ![image](https://user-images.githubusercontent.com/77449586/125204509-b0066100-e2b8-11eb-8789-42b4378bbbf2.png)
 
 이제 위에서 의사코드로 짠 알고리즘을 순서도로 구성해보자.
+
 ![수학](https://user-images.githubusercontent.com/77449586/125205490-7421ca80-e2bd-11eb-809c-050cbdcbfa91.png)
 
 
