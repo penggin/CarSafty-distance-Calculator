@@ -155,7 +155,6 @@ vscode를 사용하였을때는 작업이 멈추지않고 한번에 진행되며
 
 우선 대부분의 코드들은 코드의 제일 처음에 필요한 모듈을을 import(불러오기)한다.
 그러므로 먼저 필요한 모듈들을 import해보자!
-
 ![image](https://user-images.githubusercontent.com/77449586/125290221-0b892b00-e35b-11eb-9ea1-c77f62d897bf.png)
 
 필요한 모듈들을 import하고, 완료되었을때 알려주는 코드를 짜보았다.
