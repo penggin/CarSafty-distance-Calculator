@@ -15,8 +15,14 @@
 + ~~링크 : <https://colab.research.google.com/drive/1gEBomDgeINv7NEKotYWrEMnq-ecuz_on?usp=sharing>~~
 + 오류로 인해 위의 링크가 작동하지 않아, 아래의 방법을 사용해주세요.
 1. https://colab.research.google.com/ 에 접속합니다.
-2. 이 레포의 CarSafty-distance-Calculator.ipynb 파일을 다운받습니다. (링크 : )
-3. 
+2. 구글계정으로 로그인합니다.
+3. ![image](https://user-images.githubusercontent.com/77449586/125331532-135cc580-e383-11eb-907e-1256dd428e41.png)
+위의 창이 보인다면 계속 진행하시고, 안보이신다면 1번의 링크로 다시 들어가시면 됩니다.
+4. GitHub를 선택하신후, 링크를 붙여넣어주세요. 링크 : https://github.com/penggin/CarSafty-distance-Calculator
+5. ![image](https://user-images.githubusercontent.com/77449586/125331753-5a4abb00-e383-11eb-9c9f-1c1a3f2cc8b1.png)
+파란색으로 강조된것을 눌러주시면 실행이 가능합니다.
+파일 안에서의 사용법은 아래의 첨부된 gif를 참고하시거나, 구글에 "구글 코랩 사용법" 이라 검색해주세요.
+
 
 ### 문제분석
 
