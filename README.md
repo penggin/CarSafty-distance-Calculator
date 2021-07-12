@@ -88,6 +88,73 @@
 
 이제 위에서 의사코드로 짠 알고리즘을 순서도로 구성해보자.
 
-![수학](https://user-images.githubusercontent.com/77449586/125205490-7421ca80-e2bd-11eb-809c-050cbdcbfa91.png)
+![수학 (1)](https://user-images.githubusercontent.com/77449586/125289696-7ede6d00-e35a-11eb-9188-5ba065eecb94.png)
+
+순서도로는 다음과 같이 나타낼수있다. 그렇다면 이제 코드를 짜는 순서로 넘어가보자.
+
+### 코드짜기
+
+**변수 네이밍 정리**
+코드를 짜다보니 겹치는 변수들이 있어서 여기서 한번 정리를 하고 가려고 한다.
+v0 = 자동차의 초기속도
+t0 = 인지후, 브레이크를 밟기까지의 거리
+g = 중력가속도의 크기
+u = 도로의 마찰계수
+a = 마찰계수 * 중력가속도
+t = 미지수
+gongju_distance = 공주거리
+ft = f(t) = 속도함수
+ft0 = ft를 풀기위한 임시값
+T = 자동차가 멈추기까지의 시간 (dict)
+t1 = 자동차가 멈추기까지의 시간을 T에서 추출한것
+Ft = F(t) = 거리함수 = f(t)를 적분한것
 
 
+
+나는 이전의 수학과제 제출(구간함수의 실생활 적용) 에선, vscode(편집기 이름)라는 IDE(편집기)를 사용하였다.
+하지만 이번의 활동에서는 다른것을 사용해볼것이다.
+
+이번 활동에서는 vscode같은 IDE 대신, 구글의 colab(코랩)을 사용해 볼것이다.
+구글 코랩은 주피터 노트북을 기반으로 작동하며, 주피터 노트북은 과학 수학 등 하나하나 과정을 지켜보며 변화나, 결과 등을 관찰하는 연구 목적에 더 적합하다.
+한번 예시를 살펴보자.
+
+하나의 작업을 하는데에 2초가 소요되고, 총 3회의 작업을 하는 프로그램이 있다고 가정해보자.
+아래의 사진은 일반적인 IDE(vscode)를 사용한 모습이다.
+![vsexample](https://user-images.githubusercontent.com/77449586/125286639-02965a80-e357-11eb-94b0-e074cbc42176.gif)
+
+vscode를 사용하였을때는 작업이 멈추지않고 한번에 진행되며, 현재 어떤 작업이 진행되고있는지 정확히 알기 어렵다.
+이제 같은 프로그램을 주피터노트북에서 구성하여 실행해보자.
+
+![image](https://user-images.githubusercontent.com/77449586/125286966-57d26c00-e357-11eb-9fa4-9b66bede8b87.png)
+
+위의 사진으로 볼수있듯이, 주피터 노트북은 구간별로 코드들을 분리하여 실행할수있다.
+이제 실행모습을 살펴보자!
+![colabexample](https://user-images.githubusercontent.com/77449586/125287475-ea730b00-e357-11eb-9707-98d8688bba51.gif)
+
+이처럼 주피터노트북에선 코드들을 분리하여 실행시킬수있다.
+이제 진짜로 코드를 짜러 가보자!!
+
+우선 대부분의 코드들은 코드의 제일 처음에 필요한 모듈을을 import(불러오기)한다.
+그러므로 먼저 필요한 모듈들을 import해보자!
+
+![image](https://user-images.githubusercontent.com/77449586/125290221-0b892b00-e35b-11eb-9ea1-c77f62d897bf.png)
+
+필요한 모듈들을 import하고, 완료되었을때 알려주는 코드를 짜보았다.
+그 다음으로는 아래의 순서도 부분인, 정보들을 입력받는 코드를 짜볼것이다.
+![image](https://user-images.githubusercontent.com/77449586/125288460-23f84600-e359-11eb-83d7-9dfd93bf59ac.png)
+
+![image](https://user-images.githubusercontent.com/77449586/125289864-aaf9ee00-e35a-11eb-959d-d16de0cf6959.png)
+
+위의 순서도에서는 값들을 입력받은후 각각의 변수에 집어넣는다. 아래는 위의 순서도를 코드로 짠것이다.
+![image](https://user-images.githubusercontent.com/77449586/125311392-56f90480-e36e-11eb-94aa-baec67f87f71.png)
+
+위의 코드에서는 각각의 값들을 python의 내장함수인 input() 을 이용하여 값을 입력받았다.
+여기서 input은 값을 str(문자열)으로 돌려주기때문에 실수형(float)로 바꿔주어야 한다. (보통이라면 정수형(int)로 바꾸었겠지만, 이 계산을 할때 소수도 계산할수있기때문에 실수형을 사용함.)
+
+다음은 이 부분을 짜볼것이다.
+![image](https://user-images.githubusercontent.com/77449586/125306271-05e71180-e36a-11eb-9c56-5b8aa74a735b.png)
+
+아래의 코드는 위의 순서도를 바탕으로 코드를 짠것이다.
+![image](https://user-images.githubusercontent.com/77449586/125308959-50698d80-e36c-11eb-8419-1cb1a57b7812.png)
+
+(절대 공주거리를 영어로 번역한것을 찾지못해 gongju_distance 라고 한것이 아니다... ㅋㅋ)
