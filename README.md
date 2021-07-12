@@ -223,6 +223,8 @@ vscode를 사용하였을때는 작업이 멈추지않고 한번에 진행되며
 
 ![usingexample](https://user-images.githubusercontent.com/77449586/125327185-cfb38d00-e37d-11eb-8712-d4cb5ac0ec27.gif)
 
+(만약 위의 gif가 흐리게 보이신다면, gif를 클릭해서 봐주세요.)
+
 (이 코드를 테스트 하시려면, 상단의 사용방법 부분을 참고해주세요.)
 
 ### 느낀점들
