@@ -181,27 +181,34 @@ vscode를 사용하였을때는 작업이 멈추지않고 한번에 진행되며
 (절대 공주거리를 영어로 번역한것을 찾지못해 gongju_distance 라고 한것이 아니다... ㅋㅋ)
 
 다음은 이쪽부분을 짜보자!
+
 ![image](https://user-images.githubusercontent.com/77449586/125316519-25366c80-e373-11eb-9d3e-915746cf5a5f.png)
 
 위의 순서도를 코드로 구성하면 아래와 같아진다.
+
 ![image](https://user-images.githubusercontent.com/77449586/125317652-21efb080-e374-11eb-83d1-673e3e148d84.png)
 
 이제 거의 마지막이다!! 식을 그래프로 나타내기만 하면 거의 끝이다!!!
 순서도는 다음과 같다.
+
 ![image](https://user-images.githubusercontent.com/77449586/125317940-5c594d80-e374-11eb-807a-30572892aacd.png)
 
 (뭐... 하나뿐이여서 순서라는게 없긴 하지만 ㅎ...)
 
 먼저 거리그래프를 그리는 코드를 짜보자.
+
 ![image](https://user-images.githubusercontent.com/77449586/125325391-d6410500-e37b-11eb-98fb-1e73600aaf9d.png)
 
 그 다음으로는 속도의 그래프이다. (사실 구조는 같기때문에 주석으로 설명은 넣지 않았다.)
+
 ![image](https://user-images.githubusercontent.com/77449586/125325457-ea850200-e37b-11eb-802a-f0d2562fd95a.png)
 
 그 다음은 가속도의 그래프이다.
+
 ![image](https://user-images.githubusercontent.com/77449586/125325491-f40e6a00-e37b-11eb-893b-1abfdd7fd22b.png)
 
 이제 진짜 마지막 과정이다.
+
 ![image](https://user-images.githubusercontent.com/77449586/125325533-ff619580-e37b-11eb-9740-300fffddd11e.png)
 
 사실 주피터 노트북에서는 구역들이 분리되어있고, 사용자가 직접 눌러가며 실행하는것이기 때문에 자동으로 처음으로 가게 할수는 없다.
@@ -212,6 +219,7 @@ vscode를 사용하였을때는 작업이 멈추지않고 한번에 진행되며
 
 ### 테스트 해보기!
 테스트 값으로는 교과서 144p의 활동 1번의 값들을 사용하였다!
+
 ![usingexample](https://user-images.githubusercontent.com/77449586/125327185-cfb38d00-e37d-11eb-8712-d4cb5ac0ec27.gif)
 
 (이 코드를 테스트 하시려면, 상단의 사용방법 부분을 참고해주세요.)
