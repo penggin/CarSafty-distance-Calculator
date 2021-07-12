@@ -12,7 +12,11 @@
 ## 사용방법
 
 + 이 프로젝트는 구글의 코랩(주피터노트북) 으로 만들어졌으며, 온라인에서 실행하실수 있습니다.
-+ 링크 : <https://colab.research.google.com/drive/1gEBomDgeINv7NEKotYWrEMnq-ecuz_on?usp=sharing>
++ ~~링크 : <https://colab.research.google.com/drive/1gEBomDgeINv7NEKotYWrEMnq-ecuz_on?usp=sharing>~~
++ 오류로 인해 위의 링크가 작동하지 않아, 아래의 방법을 사용해주세요.
+1. https://colab.research.google.com/ 에 접속합니다.
+2. 이 레포의 CarSafty-distance-Calculator.ipynb 파일을 다운받습니다. (링크 : )
+3. 
 
 ### 문제분석
 
