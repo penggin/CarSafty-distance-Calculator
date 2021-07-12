@@ -158,7 +158,9 @@ vscode를 사용하였을때는 작업이 멈추지않고 한번에 진행되며
 ![image](https://user-images.githubusercontent.com/77449586/125290221-0b892b00-e35b-11eb-9ea1-c77f62d897bf.png)
 
 필요한 모듈들을 import하고, 완료되었을때 알려주는 코드를 짜보았다.
+
 그 다음으로는 아래의 순서도 부분인, 정보들을 입력받는 코드를 짜볼것이다.
+
 ![image](https://user-images.githubusercontent.com/77449586/125288460-23f84600-e359-11eb-83d7-9dfd93bf59ac.png)
 
 ![image](https://user-images.githubusercontent.com/77449586/125289864-aaf9ee00-e35a-11eb-959d-d16de0cf6959.png)
